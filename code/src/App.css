@@ -1,0 +1,29 @@
+cd/* General Styling for FitnessFlex */
+
+/* Use a professional and readable font for the application */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f2f5; /* Light gray background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Base font sizes for different headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #2c3e50; /* Darker heading color */
+}
+
+/* Set the default link color and remove the underline */
+a {
+    color: #3498db; /* A vibrant blue for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #2980b9;
+}
